@@ -1,0 +1,1 @@
+readme for projet C - Variables, if, else, while
