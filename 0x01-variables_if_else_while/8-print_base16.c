@@ -8,7 +8,7 @@
 int main(void)
 {
 int ch;
-for (ch = 48 ; ch <= 70 ; ch++)
+for (ch = 48 ; ch <= 69 ; ch++)
 {
 if (ch < 58  && ch > 64)
 {
