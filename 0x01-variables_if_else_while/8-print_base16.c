@@ -7,11 +7,14 @@
 */
 int main(void)
 {
-int n;
-for (n = 0; n < 10; n++)
+char ch;
+for (ch = 30 ; ch <= 46 ; ch++)
 {
-printf("%d", n);
+if (ch <= 39 && ch >= 41)
+{
+putchar(ch);
 }
-printf("\n");
+}
+putchar(10);
 return (0);
 }
