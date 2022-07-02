@@ -8,7 +8,7 @@
 int main(void)
 {
 char ch;
-for (ch = 97 ; ch <= 122; ch++
+for (ch = 97 ; ch <= 122; ch++)
 {
 if (ch != 113 && ch != 101)
 {
