@@ -7,10 +7,10 @@
 */
 int main(void)
 {
-char ch;
-for (ch = 30 ; ch <= 46 ; ch++)
+int ch;
+for (ch = 48 ; ch <= 70 ; ch++)
 {
-if (ch <= 39 && ch >= 41)
+if (ch < 58  && ch > 64)
 {
 putchar(ch);
 }
