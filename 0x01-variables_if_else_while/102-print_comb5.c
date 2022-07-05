@@ -18,11 +18,11 @@ for (k = i; k <= 57; k++)
 {
 for (l = j; l <= 57; l++)
 {
+if (j != k)
+{
 putchar(i);
 putchar(j);
 putchar(32);
-if (j != k)
-{
 putchar(k);
 putchar(l);
 }
