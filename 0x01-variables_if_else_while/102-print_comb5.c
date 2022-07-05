@@ -18,7 +18,7 @@ for (k = i; k <= 57; k++)
 {
 for (l = j; l <= 57; l++)
 {
-if (j != k)
+if (j != l)
 {
 putchar(i);
 putchar(j);
