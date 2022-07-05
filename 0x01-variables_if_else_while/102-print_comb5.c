@@ -21,8 +21,11 @@ for (l = j; l <= 57; l++)
 putchar(i);
 putchar(j);
 putchar(32);
+if (j != k)
+{
 putchar(k);
 putchar(l);
+}
 if (!(i == 57 && j == 56 && k == 57 && l == 57))
 {
 putchar(32);
