@@ -2,9 +2,7 @@
 
 
 /**
-* main - check the code
-*
-* Return: Always 0.
+* print_alphabet->call the alphabet
 */
 
 void print_alphabet(void)
