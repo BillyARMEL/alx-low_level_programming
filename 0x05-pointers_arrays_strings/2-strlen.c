@@ -6,7 +6,7 @@
  * @s: string pointer
  * return: length of the string
  */
-int _strlen(char *s)
+int _strlen(char *s)/*function that returns the length of a string*/
 {
 return (strlen(s));
 }
