@@ -6,19 +6,20 @@
 * *_strcat - function that concatenates two strings.
 * *dest :  first parameter of the function (pointer to the first string)
 * *src :  second parameter of the function (pointer to the second string)
-* return : function return a pointer to the resulting string des
+* return : function return a pointer to the resulting string dest
 */
 
 char *_strcat(char *dest, char *src)
 {
-for( ; *dest != '\0'; dest++)
+int i, n;
+
+for (i = 0; dest[i] != '\0'; i++)
 {
-_putchar(*dest);
 }
-for(; *src != '\0'; src++)
+
+for (n = 0; (dest[i + n] = *src++) != '\0'; n++)
 {
-_putchar(*src);
 }
-_putchar('\0');
+
 return (dest);
 }
