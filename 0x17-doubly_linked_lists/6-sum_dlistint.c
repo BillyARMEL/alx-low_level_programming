@@ -6,12 +6,12 @@ nclude "lists.h"
  */
 int sum_dlistint(dlistint_t *head)
 {
-	int s = 0;
+	int sum = 0;
 
 	while (head)
 	{
-		s += head->n;
+		sum += head->n;
 		head = head->next;
 	}
-	return (s);
+	return (sum);
 }
